@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto); 
+@import url(https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed);
+
+body {
+	color: #343434;
+	background-color: #f5f5f5;
+	padding-left: 72px;
+	
+}
+
+h1 {
+	font-family: 'Roboto Condensed', Sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 48px;
+	margin-top: 24px;
+	margin-bottom: 0;
+	padding-top: 24px;
+}
+
+p {
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: none;
+	text-align: left;
+	line-height: 24px;
+	margin-top: 24px;
+	margin-bottom:0;
+	max-width: 576px;
+}
+
+ul {
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 400;
+	margin-top: 24px;
+	margin-bottom: 0;
+	list-style-type: none;
+
+}
+
+li {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+}
+
+img {
+	margin-top: 48px;
+	margin-bottom: 24px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dbdbdb;
+}
+
+a{
+	color: #0099cc;
+}
+
+#slogan {
+	font-style: italic;
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 24px;
+	margin-bottom: 0; 
+}
+
+#title {
+	font-family: 'Roboto Condensed', Sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 24px;
+	margin-bottom: 8px;
+}
