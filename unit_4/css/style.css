@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto); 
+@import url(https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed);
+
+body {
+	color: #343434;
+	background-color: #f5f5f5;
+	padding-left: 72px;
+	
+}
+
+h1 {
+	font-family: 'Roboto Condensed', Sans-serif;
+	font-weight: 700;
+	font-size: 3em; /* 48px/16=3em */
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 3em; /* 48px/16=3em */
+	margin-top: 1.5em; /* 24px/16=1.5em */
+	margin-bottom: 0;
+	padding-top: 1.5em; /* 24px/16=1.5em */
+}
+
+p {
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 400;
+	font-size: 1em; /* 16px/16=1em */
+	text-transform: none;
+	text-align: left;
+	line-height: 1.5em; /* 24px/16=1.5em */
+	margin-top: 1.5em; /* 24px/16=1.5em */
+	margin-bottom:0;
+	max-width: 576px;
+}
+
+ul {
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 400;
+	margin-top: 1.5em; /* 24px/16=1.5em */
+	margin-bottom: 0;
+	list-style-type: none;
+
+}
+
+li {
+	font-size: 0.875em; /* 14px/16=0.875em */
+	line-height: 1.5em; /* 24px/16=1.5em */
+	text-align: left;
+}
+
+img {
+	margin-top: 3em; /* 48px/16=3em */
+	margin-bottom: 1.5em; /* 24px/16=1.5em */
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dbdbdb;
+}
+
+a{
+	color: #0099cc;
+}
+
+#slogan {
+	font-style: italic;
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 100;
+	font-size: 1.125em; /* 18px/16=1.125em */
+	line-height: 1.5em; /* 24px/16=1.5em */
+	margin-top: 1.5em; /* 24px/16=1.5em */
+	margin-bottom: 0; 
+}
+
+#title {
+	font-family: 'Roboto Condensed', Sans-serif;
+	font-weight: 100;
+	font-size: 1em; /* 16px/16=1em */
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 1.5em; /* 24px/16=1.5em */
+	margin-bottom: 0.5em; /* 8px/16=0.5em */
+}
