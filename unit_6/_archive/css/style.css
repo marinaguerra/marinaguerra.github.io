@@ -51,7 +51,7 @@ article {
 
 h1 {
 	font-family: 'Roboto Condensed', Sans-serif;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 3em; /* 48px/16=3em */
 	text-transform: uppercase;
 	text-align: left;
@@ -89,8 +89,8 @@ p {
 	text-transform: none;
 	text-align: left;
 	line-height: 1.5em; /* 24px/16=1.5em */
-	margin: 0;
-	padding: 0;
+	margin-top: 1.5em; /* 24px/16=1.5em */
+	margin-bottom:0;
 	max-width: 576px;
 }
 
@@ -124,6 +124,16 @@ a{
 	font-size: 0.875em; /* 14px/16=0.875em */
 	line-height: 1.5em; /* 24px/16=1.5em */
   	text-decoration: none;
+}
+
+#slogan {
+	font-style: italic;
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 100;
+	font-size: 1.125em; /* 18px/16=1.125em */
+	line-height: 1.5em; /* 24px/16=1.5em */
+	margin-top: 1.5em; /* 24px/16=1.5em */
+	margin-bottom: 0; 
 }
 
 #title {
@@ -167,6 +177,11 @@ a{
 }
 
 .side-nav {
+}
+
+.next-nav {
+	text-align: right;
+	max-width: 1200px;
 }
 
 .code {
